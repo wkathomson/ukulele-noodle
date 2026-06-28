@@ -1,3 +1,4 @@
 # local preview harness (sandbox workaround), not part of the app
 .claude/
 .DS_Store
+.iconwork/

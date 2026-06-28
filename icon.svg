@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2fb9a8"/>
+      <stop offset="1" stop-color="#147066"/>
+    </linearGradient>
+    <radialGradient id="pet" cx="50%" cy="86%" r="82%">
+      <stop offset="0" stop-color="#ffd54a"/>
+      <stop offset="26%" stop-color="#ff924a"/>
+      <stop offset="68%" stop-color="#f0503c"/>
+      <stop offset="100%" stop-color="#d6382b"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="512" height="512" fill="url(#bg)"/>
+
+  <!-- soft back leaves -->
+  <g fill="#1c8a7e" opacity=".6">
+    <ellipse cx="96" cy="150" rx="58" ry="118" transform="rotate(-34 96 150)"/>
+    <ellipse cx="420" cy="378" rx="54" ry="112" transform="rotate(-40 420 378)"/>
+  </g>
+
+  <!-- hibiscus -->
+  <g transform="translate(256 266)">
+    <g fill="url(#pet)" stroke="#ffe6bc" stroke-width="4" stroke-opacity=".45">
+      <path d="M0 0 C -76 -44 -78 -150 0 -196 C 78 -150 76 -44 0 0 Z"/>
+      <path d="M0 0 C -76 -44 -78 -150 0 -196 C 78 -150 76 -44 0 0 Z" transform="rotate(72)"/>
+      <path d="M0 0 C -76 -44 -78 -150 0 -196 C 78 -150 76 -44 0 0 Z" transform="rotate(144)"/>
+      <path d="M0 0 C -76 -44 -78 -150 0 -196 C 78 -150 76 -44 0 0 Z" transform="rotate(216)"/>
+      <path d="M0 0 C -76 -44 -78 -150 0 -196 C 78 -150 76 -44 0 0 Z" transform="rotate(288)"/>
+    </g>
+    <circle r="36" fill="#bf3328"/>
+    <circle r="17" fill="#ffd24a"/>
+    <line x1="0" y1="-6" x2="42" y2="-152" stroke="#ffd24a" stroke-width="7" stroke-linecap="round"/>
+    <g fill="#ffe488">
+      <circle cx="42" cy="-152" r="13"/>
+      <circle cx="30" cy="-132" r="7"/><circle cx="48" cy="-130" r="7"/>
+      <circle cx="36" cy="-112" r="6"/><circle cx="52" cy="-110" r="6"/>
+    </g>
+  </g>
+</svg>
